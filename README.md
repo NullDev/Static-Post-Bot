@@ -49,3 +49,11 @@ It can be found [here](https://github.com/NLDev/Static-Post-Bot/blob/master/conf
 | everything after `markdown` | All other config entries are just the messages the bot sends. They can be customized. |
 
 Thats it pretty much :smile_cat:
+
+## Screenshots 
+(click the pictures for full size)
+
+<div align="center" style="display:flex; text-align:center;">
+<img height="250" width="auto" src="https://raw.githubusercontent.com/NLDev/Static-Post-Bot/master/.img/scr1.png" />
+<img height="250" width="auto" src="https://raw.githubusercontent.com/NLDev/Static-Post-Bot/master/.img/scr1.png" />
+</div>
