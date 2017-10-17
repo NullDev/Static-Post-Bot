@@ -211,10 +211,16 @@ b.on("message", (msg) => {
                         text: "Edit Posts",
                         callback_data: "edit_post"
                     }],
-                    [{
-                        text: "About",
-                        callback_data: "about_text"
-                    }]
+                    [
+                        {
+                            text: "About",
+                            callback_data: "about_text"
+                        },
+                        {
+                            text: "Source Code",
+                            callback_data: "source_code"
+                        }
+                    ]
                 ]
             },
             //is markdown enabled in the config?
@@ -241,8 +247,11 @@ b.on("message", (msg) => {
                         break;
                     }
                     case "about_text": {
-                        //No perms needed
                         send(about);
+                        break;
+                    },
+                    case "source_code": {
+                        send("https://github.com/NLDev/Static-Post-Bot");
                         break;
                     }
                 }
