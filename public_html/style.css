@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* { font-family:           'Lato', sans-serif; }
+
+html, body { 
+    margin:                0; 
+    padding:               0; 
+    background-color:      #000;
+}
+
+.posts { margin:           0 3em 3em 3em; }
+
+.post {
+    margin:                3em 0 0 3em;
+    width:                 250px;
+    display:               inline-block;
+}
+
+.post-text {
+    text-align:            left;
+    background-color:      #333;
+    width:                 250px;
+}
+
+.post-text p { 
+    color:                 #5DB56B;
+    padding:               25px 15px;
+    margin:                0;
+}
+
+/* If the image has transparency */
+.post-image { background:  #696969; }
+
+.bigimg {
+    height:                auto;
+    width:                 250px;
+    -webkit-filter:        grayscale(0) blur(0);
+    filter:                grayscale(0) blur(0);
+    -webkit-transition:    .3s ease-in-out;
+    transition:            .3s ease-in-out;
+}
+
+.bigimg:hover {
+    cursor:                pointer;
+    -webkit-filter:        grayscale(100%) blur(4px);
+    filter:                grayscale(100%) blur(4px);
+}
