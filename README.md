@@ -55,6 +55,5 @@ Thats it pretty much :smile_cat:
 
 <div align="center" style="display:flex; text-align:center;">
 <img height="350" width="auto" src="https://raw.githubusercontent.com/NLDev/Static-Post-Bot/master/.img/scr1.png" />
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <img height="350" width="auto" src="https://raw.githubusercontent.com/NLDev/Static-Post-Bot/master/.img/scr2.png" />
 </div>
