@@ -24,7 +24,7 @@ Once an option is clicked, just follow the instructions of the bot.
 Posts consist of an image and a text. <br>
 The pictures can be enlarged on click. 
 
-Here is a demo to see what it looks like:
+Here is a **live demo** to see what it looks like:
 
 https://nldev.github.io/Static-Post-Bot/public_html/
 
