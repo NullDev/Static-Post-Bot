@@ -28,6 +28,27 @@ Here is a demo to see what it looks like:
 
 https://nldev.github.io/Static-Post-Bot/public_html/
 
+## Additional Features
+
+- Custom messages (set in config)
+- Markdown support
+- Check user permission
+- Send message with choice buttons instead of slash commands
+- Check if the input is valid text (no picture or sticker)
+- check if the picture is valid and not text or sticker
+- Pictures can be applied by sending them or by providing an URL to them
+- Check if the URL to the picture is valid
+- Check if the picture has a valid extension (.png, .gif, .jpg...)
+- Valid extensions can be set in the config
+- Local session storage. The process of creating a post can be continued later
+- Allowed users can be set in config
+- markdown can be disabled in config
+- Bot key can be set in config
+- Inline parsing of HTML file
+- Path to HTML file can be set in config
+- jQuery support
+- Automaticly keep the order of posts in the HTML file if one is deleted
+
 ## Install instructions: 
 
 ```javascript
