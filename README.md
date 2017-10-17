@@ -54,6 +54,6 @@ Thats it pretty much :smile_cat:
 (click the pictures for full size)
 
 <div align="center" style="display:flex; text-align:center;">
-<img height="350" width="auto" src="https://raw.githubusercontent.com/NLDev/Static-Post-Bot/master/.img/scr1.png" />
-<img height="350" width="auto" src="https://raw.githubusercontent.com/NLDev/Static-Post-Bot/master/.img/scr2.png" />
+<img height="350" width="auto" src="https://raw.githubusercontent.com/NLDev/Static-Post-Bot/master/.img/scr1.png" hspace="20" />
+<img height="350" width="auto" src="https://raw.githubusercontent.com/NLDev/Static-Post-Bot/master/.img/scr2.png" hspace="20" />
 </div>
