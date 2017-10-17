@@ -115,7 +115,6 @@ b.on("message", (msg) => {
                             var jsonraw = JSON.parse(body);
                             var fPath = jsonraw.result.file_path;
                             nppic = "https:\/\/api.telegram.org\/file\/bot" + token + "\/" + fPath;
-                            send(npcon);
                             newPostCall(nptxt, nppic, function(){ send(nncon); });
                         });
                     }
@@ -255,6 +254,7 @@ b.on("message", (msg) => {
                         break;
                     }
                 }
+                b.answerCallbackQuery(callbackQuery.id, null);
                 callbackQuery = null;
             });
         }).catch(console.error);
