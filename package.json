@@ -1,0 +1,29 @@
+{
+	"name": "StaticPostBot",
+	"description": "Make posts to static website",
+	"version": "1.3.0",
+	"main": "bot.js",
+	"scripts": {
+		"start": "node bot.js"
+	},
+	"dependencies": {
+		"fs-cheerio": "^2.0.1",
+		"http-request": "^0.7.0",
+		"node-storage": "^0.0.7",
+		"node-telegram-bot-api": "^0.27.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/NLDev/Static-Post-Bot"
+	},
+	"maintainers": [
+		{
+			"name": "NullDev",
+			"email": "admin@nulldev.org",
+			"web": "nulldev.org"
+		}
+	],
+	"license": "Apache-2.0",
+	"author": "NullDev",
+	"homepage": "https://nulldev.org"
+}
