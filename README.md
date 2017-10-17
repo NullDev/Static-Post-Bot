@@ -1,6 +1,11 @@
 # Static Post Bot
 
+<p align="center">
+<img height="150" width="auto" src="https://raw.githubusercontent.com/NLDev/Static-Post-Bot/master/.img/bot.gif" /><br>
 Telegram Bot for making posts to a static website
+</p>
+
+<hr>
 
 This was rather an test project for DOM Manipulation from NodeJS. <br>
 Not suitable for production/deployment.
