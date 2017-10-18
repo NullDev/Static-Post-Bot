@@ -57,7 +57,7 @@ function isURL(str) {
 }
 
 //converts an array to a nice text (example converts '["a","b","c"]' to 'a, b and c') 
-function prittifyArr(arr){ 
+function prettifyArr(arr){ 
     var x = arr.toString().replace(/\,/gi, ", ");
     var p = x.lastIndexOf(',');
     return x.substring(0, p) + " and" + x.substring(p + 1);
@@ -182,7 +182,7 @@ b.on("message", (msg) => {
             callback();
         }
         else {
-            send(ertyp + "\n\nAllowed image types: " + prittifyArr(iexts) + "\nYour image: " + ext + "\n\n" + npics);
+            send(ertyp + "\n\nAllowed image types: " + prettifyArr(iexts) + "\nYour image: " + ext + "\n\n" + npics);
             store.put(key, 'newpost_picture');
             return;
         }
