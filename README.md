@@ -45,6 +45,7 @@ https://nldev.github.io/Static-Post-Bot/public_html/
 - markdown can be disabled in config
 - Bot key can be set in config
 - Inline parsing of HTML file
+- All actions are cancelable 
 - Path to HTML file can be set in config
 - jQuery support
 - Automaticly keep the order of posts in the HTML file if one is deleted
