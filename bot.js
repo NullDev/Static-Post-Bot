@@ -34,7 +34,8 @@ var perms = con.msg.no_permission,
     uerrs = con.msg.unknown_error,
     dtext = con.msg.delete_post,
     ntfnd = con.msg.post_not_found,
-    dconf = con.msg.post_deleted;
+    dconf = con.msg.post_deleted,
+    cancd = con.msg.operation_canceled;
 
 var md = con.msg.markdown;
 
@@ -92,7 +93,14 @@ b.on("message", (msg) => {
         switch (data.toLowerCase()){
             case "newpost_text": {
                 store.put(key, null);
-                if (isset(txt)) nptxt = txt;
+                if (isset(txt)){
+                    if (txt.toLowerCase() == "!--c"){
+                        store.put(key, null);
+                        send(cancd);
+                        return;
+                    }
+                    else nptxt = txt;
+                }
                 else {
                     send(ertxt + "\n\n" + ntext);
                     store.put(key, 'newpost_text');
@@ -124,6 +132,11 @@ b.on("message", (msg) => {
                     nppic = txt;
                     newPostCall(nptxt, nppic, function(){ send(nncon); });
                 }  
+                else if (txt.toLowerCase() == "!--c"){
+                    store.put(key, null);
+                    send(cancd);
+                    return;
+                }
                 //wrong input: repeat
                 else {
                     send(erimg + "\n\n" + npics);
@@ -133,7 +146,11 @@ b.on("message", (msg) => {
             }
             case "delete_post": {
                 store.put(key, null);
-                if (isNaN(txt) || txt <= 0) break;
+                if (isNaN(txt) || txt <= 0){
+                    store.put(key, null);
+                    send(cancd);
+                    return;
+                }
                 else {
                     ch.readFile(relsr).then(function($){
                         var count = $(".post").length;
@@ -248,7 +265,7 @@ b.on("message", (msg) => {
                     case "about_text": {
                         send(about);
                         break;
-                    },
+                    }
                     case "source_code": {
                         send("https://github.com/NLDev/Static-Post-Bot");
                         break;
