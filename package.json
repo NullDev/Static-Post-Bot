@@ -10,7 +10,7 @@
 		"fs-cheerio": "^2.0.1",
 		"http-request": "^0.7.0",
 		"node-storage": "^0.0.7",
-		"node-telegram-bot-api": "^0.27.0"
+		"node-telegram-bot-api": "^0.27.1"
 	},
 	"repository": {
 		"type": "git",
