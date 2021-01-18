@@ -267,7 +267,7 @@ b.on("message", (msg) => {
                         break;
                     }
                     case "source_code": {
-                        send("https://github.com/NLDev/Static-Post-Bot");
+                        send("https://github.com/NullDev/Static-Post-Bot");
                         break;
                     }
                 }
