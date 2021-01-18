@@ -1,7 +1,7 @@
 # Static Post Bot
 
 <p align="center">
-<img height="150" width="auto" src="https://raw.githubusercontent.com/NLDev/Static-Post-Bot/master/.img/bot.gif" /><br>
+<img height="150" width="auto" src="https://raw.githubusercontent.com/NullDev/Static-Post-Bot/master/.img/bot.gif" /><br>
 Telegram Bot for making posts to a static website
 </p>
 
@@ -26,7 +26,7 @@ The pictures can be enlarged on click.
 
 Here is a **live demo** to see what it looks like:
 
-https://nldev.github.io/Static-Post-Bot/public_html/
+https://nulldev.github.io/Static-Post-Bot/public_html/
 
 ## Additional Features
 
@@ -59,7 +59,7 @@ https://nldev.github.io/Static-Post-Bot/public_html/
 ## Config:
 
 The config is rather self explaining. <br>
-It can be found [here](https://github.com/NLDev/Static-Post-Bot/blob/master/config.json).
+It can be found [here](https://github.com/NullDev/Static-Post-Bot/blob/master/config.json).
 
 | Option | Explanation |
 |--------|-------------|
@@ -76,6 +76,6 @@ Thats it pretty much :smile_cat:
 (click the pictures for full size)
 
 <div align="center" style="display:flex; text-align:center;">
-<img height="350" width="auto" src="https://raw.githubusercontent.com/NLDev/Static-Post-Bot/master/.img/scr1.png" hspace="20" />
-<img height="350" width="auto" src="https://raw.githubusercontent.com/NLDev/Static-Post-Bot/master/.img/scr2.png" hspace="20" />
+<img height="350" width="auto" src="https://raw.githubusercontent.com/NullDev/Static-Post-Bot/master/.img/scr1.png" hspace="20" />
+<img height="350" width="auto" src="https://raw.githubusercontent.com/NullDev/Static-Post-Bot/master/.img/scr2.png" hspace="20" />
 </div>
